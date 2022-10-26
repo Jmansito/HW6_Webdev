@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>Employee Manager</title>
-    <link rel="stylesheet" href="/MVC/main.css" />
+<!--    <link rel="stylesheet" href="/MVC/main.css" />-->
+    <link href="/MVC/main.css?<?=  filemtime( $_SERVER['DOCUMENT_ROOT'] . "/MVC/main.css" )  ?>" type="text/css" rel="stylesheet" />
 </head>
 
 <!-- the body section -->
